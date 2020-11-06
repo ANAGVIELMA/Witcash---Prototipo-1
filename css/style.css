@@ -173,11 +173,10 @@ header div div i{
             font-size: 20px;
             line-height: 28px;
             text-align: center;
-
         }
 
     }
-    @media  (min-width: 576px) and (max-width: 768px) {
+    @media  (min-width: 576px) and (max-width: 767px) {
         header{
             background-color: orchid;
         }
@@ -217,7 +216,7 @@ header div div i{
             width: 300px;
         }
     }
-    @media (min-width: 768px) and (max-width: 992px) {
+    @media (min-width: 768px) and (max-width: 991px) {
         header{
             background-color: rgb(238, 77, 13);
         }
@@ -238,8 +237,12 @@ header div div i{
         .description-Intro h1{
             font-size: 38px;
         }
+        #Stores{
+            min-width: 250px;
+            margin: auto;
+        }
     }
-    @media (min-width: 992px) and (max-width: 1200px) {
+    @media (min-width: 992px) and (max-width: 1199px) {
         header{
             background-color: rgb(18, 231, 18);
         }
