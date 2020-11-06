@@ -1,0 +1,146 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: crimson;
+}
+a{
+    font-weight: 600;
+}
+
+
+/*==================== Header Section ====================*/
+header{
+    margin-top: 20px;
+}
+header img{
+    height: 40px;
+}
+header div div{
+   
+    height: 40px;
+    justify-self: flex-end;
+    padding: 0;
+}
+header div div i{
+    margin-left: auto;
+    
+}
+.intro-principal{
+    background-image: url("/assets/intro-Fondo\ Fixed.svg");
+    /* Set a specific height */
+    height: 35vw;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 30px;
+    margin: 30px;
+}
+.intro-principa-mov{
+    background-image: url("/assets/intro-Fondo.svg");
+    /*background-attachment: fixed;*/
+    background-position: center;
+    background-repeat: repeat;
+    height: 35vw;
+}
+.intro-Img{
+    margin-top: -80px;
+    min-width: 400px;
+}
+.description-Intro{
+    margin: 50px auto auto 50px;
+    width: 50%;
+    color: white;
+}
+.description-Intro p{
+    font-size: 28px;
+    font-weight: 300;
+}
+.downloadStore{
+    background-color: white;
+    width: 100px;
+    height: 50px;
+    border-radius: 8px;
+    border: #1b143dbb 2px solid;
+    display: inline-block;
+    color: midnightblue;
+}
+.icon{
+    max-width: 100px;
+    padding-left: 5px;
+}
+.iconStore{
+    
+    font-size: 45px
+}
+.downloadStore .icon .fab{
+    font-size: 20px;
+}
+.downloadStore{
+    
+    margin-right: 20px;
+}
+.text-peq{
+    font-size: 12px;
+}
+.text-grande{
+    line-height: 20px;
+    font-size: 20px;
+    font-weight: 600;
+}
+#TyC{
+    background-color: #1b143d94;
+    border: orange 1.5px solid;
+    margin-top: 20px;
+    padding: 6px;
+    border-radius: 30px;
+    color: orange;
+    width: 270px;
+}
+#TyC a{
+    color: orange;
+}
+/* Small devices (tablets, 768px and up) */
+/* Medium devices (desktops, 992px and up) */
+/* Large devices (large desktops, 1200px and up) */
+
+    @media (max-width: 768px) {
+        body{
+            background-color: orchid;
+        }
+        .intro-principal, .intro-principa-mov{
+            height: 70vw;
+        }
+        .intro-Img{
+            max-width: 600px;
+        }
+    }
+    @media (min-width: 768px) and (max-width: 992px) {
+        body{
+            background-color: rgb(238, 77, 13);
+        }
+        .intro-principal, .intro-principa-mov{
+            height: 40vw;
+        }
+    }
+    @media (min-width: 992px) and (max-width: 1200px) {
+        body{
+            background-color: rgb(18, 231, 18);
+        }
+        .intro-principal, .intro-principa-mov{
+            height: 30vw;
+        }
+    }
+    @media (min-width: 1200px) {
+        body{
+            background-color: rgb(41, 22, 212);
+        }
+
+    }
+
+
+/*<--Header Section*/
+/*==================== Intro Section ====================*/
+
+
+/*<--Intro Section*/
