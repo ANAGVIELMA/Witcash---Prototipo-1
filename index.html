@@ -12,11 +12,11 @@
   
 </head>
 
-<body class="container-fluid">
-    <header class="container-fluid"> 
-        <div class="row align-items-center justify-content-xs-between justify-content-sm-between justify-content-md-between justify-content-lg-between justify-content-xl-between">
-            <img class="col-xs-2 col-sm-4 col-md-3 col-lg-2 col-xl-2" src="assets/Logo Lineal Witcash.svg" alt="Logo Witcash">
-            <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 col-xl-1 align-self-end"><i style="font-size: 30px;" class="align-self-center fas fa-bars"></i></div>
+<body>
+    <header class="container"> 
+        <div id="cabecera" class="row align-items-center justify-content-between justify-content-sm-between justify-content-xs-between justify-content-sm-between justify-content-md-between justify-content-lg-between justify-content-xl-between">
+            <img id="logoWitcash" class="col-6 col-xs-2 col-sm-4 col-md-3 col-lg-2 col-xl-2" src="assets/Logo Lineal Witcash.svg" alt="Logo Witcash">
+            <div id="iconMenu" class="col-2 col-xs-1 col-sm-1 col-md-1 col-lg-1 col-xl-1 align-self-center"><i style="font-size: 30px;" class="align-self-center fas fa-bars"></i></div>
         </div>
     </header>
     <main>
@@ -50,23 +50,38 @@
                             </div>
                             <div class="row align-items-center justify-content-around" id="TyC">
                                 <a class="col-xs-8 col-sm-9 href="">Términos y condiciones</a>
-                                <i class="col-xs-2 col-sm-2 fas fa-angle-right"></i>
+                                <i style= "max-height: 15px;" class="col-xs-2 col-sm-2 fas fa-angle-right fa-2x"></i>
                             </div>
                             
                         </div>
-                        <div class="col-xl-5 col-lg-5 col-md-6 col-sm-12 col-xs-12 order-xs-1 order-sm-1 order-md-2 order-lg-2 order-xl-2">
+                        <div class="col-xl-5 col-lg-5 col-md-6 col-sm-10 col-xs-10 order-xs-1 order-sm-1 order-md-2 order-lg-2 order-xl-2">
                             <img class="intro-Img" src="assets/intro-imgPrincipal.svg" alt="">
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        <section class="invite"></section>
-        <section class="service"></section>
-        <section class="support"></section>
-        <section class="witmoney"></section>
-        <section class="security"></section>
-        <section class="benefits"></section>
+        <section id="invite" class="container">
+            <h2 class="row justify-content-center">Únete a nuestros usuarios <span>Intergalácticos</span></h2>
+            <p class="row justify-content-center">Te ofrecemos soluciones rápidas, seguras y eficientes</p>
+        </section>
+        <section id="service">
+            <div class="degradado container-fluid">
+                <div class="row">
+                    <ul class="col-12 col-xl-8 col-lg-8 col-md-8 col-sm-12 col-xs-12">
+                        <li>Envía y recibe <span id="itemServ1">bitcoin</span></li>
+                        <li>Almacena bitcoin de <span id="itemServ2">forma segura</span></li>
+                        <li>Cambia tus bitcoin por <span id="itemServ3">dinero en efectivo</span></li>
+                        <li>Usa tu <span id="itemServ4">wallet</span> desde cualquier parte del mundo</li>
+                    </ul>
+                    <img id="monedaImg" src="assets/BGSection3Bitcoin.svg" alt="">
+                </div>
+            </div>
+        </section>
+        <section id="support"></section>
+        <section id="witmoney"></section>
+        <section id="security"></section>
+        <section id="benefits"></section>
     </main>
     <footer>
 

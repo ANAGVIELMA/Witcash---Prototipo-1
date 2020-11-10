@@ -24,6 +24,10 @@ header div div i{
     margin-left: auto;
     
 }
+.intro{
+    margin-left: 30px;
+    margin-right: 30px;
+}
 .intro-principal{
     background-image: url("../assets/intro-Fondo%20Fixed.svg");
     /* Set a specific height */
@@ -104,33 +108,49 @@ header div div i{
 /* Small devices (tablets, 768px and up) */
 /* Medium devices (desktops, 992px and up) */
 /* Large devices (large desktops, 1200px and up) */
-    @media (max-width: 575px){
+    @media (max-width: 576px){
         header{
-            background-color: orchid;
+            width: 90%;
+        }
+        .intro{
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+        #logoWitcash{
+            width: 250px;
+            margin-left: 0;
+            margin-right: auto;
+        }
+        #cabecera{
+            display: flex;
+            justify-content: space-between !important;
+            padding-bottom: 30px;
+        }
+        #iconMenu{
+            width: 20%;
         }
         .intro-principal, .intro-principa-mov{
-            height:900px;
+            height:600px;
         }
         .intro-Img{
-            max-height: 450px;
-            width: 100%;
-            margin-left: auto;
-            margin-right: auto;
+            max-height: 250px;
+            width: 70%;
             margin-bottom: -50px;
             padding-bottom: 0;
-
+            margin-bottom: -20px;
+            order: 1;
         }
         .description-Intro p{
-            font-size: 26px;
+            font-size: 18px;
             width: 80%;
             margin: auto;
             text-align: center;
         }
         .description-Intro h1{
-            font-size: 45px;
+            font-size: 30px;
             width: 80%;
             margin: auto;
-            margin-top: -50px;
+            margin-top: -5s0px;
             text-align: center;
 
         }
@@ -142,44 +162,28 @@ header div div i{
         #TyC{
             margin-left: auto;
             margin-right: auto;
-            width: 300px;
-        }
-
-        .intro-Img{
-            width: 100%;
-            margin-bottom: -20px;
-            order: 1;
+            width: 160px;
+            padding: 0px;
         }
         .description-Intro{
             order: 2;
         }
-        .description-Intro p{
-            font-size: 30px;
-            width: 80%;
-            margin: auto;
-            text-align: center;
-        }
         #Stores{
-            width: 200px;
+            width: 150px;
             margin: auto;
         }
-        #TyC{
-            margin-left: auto;
-            margin-right: auto;
-            width: 300px;
-            height: 50px;
-        }
-        #TyC a{
-            font-size: 20px;
+         #TyC a{
+            font-size: 12px;
             line-height: 28px;
             text-align: center;
+            padding: 0;
+        }
+        #TyC .fa-angle-right{
+            display: none;
         }
 
     }
-    @media  (min-width: 576px) and (max-width: 767px) {
-        header{
-            background-color: orchid;
-        }
+    @media  (min-width: 576px) and (max-width: 768px) {
         .intro-principal, .intro-principa-mov{
             height: 650px;
         }
@@ -215,11 +219,9 @@ header div div i{
             margin-right: auto;
             width: 300px;
         }
+
     }
-    @media (min-width: 768px) and (max-width: 991px) {
-        header{
-            background-color: rgb(238, 77, 13);
-        }
+    @media (min-width: 768px) and (max-width: 992px) {
         .intro-principal, .intro-principa-mov{
             height: 400px;
         }
@@ -242,10 +244,7 @@ header div div i{
             margin: auto;
         }
     }
-    @media (min-width: 992px) and (max-width: 1199px) {
-        header{
-            background-color: rgb(18, 231, 18);
-        }
+    @media (min-width: 992px) and (max-width: 1200px) {
         .intro-principal, .intro-principa-mov{
             height: 370px;
         }
@@ -265,15 +264,12 @@ header div div i{
         }
     }
     @media (min-width: 1200px) {
-        header{
-            background-color: rgb(41, 22, 212);
-        }
         .intro-principal, .intro-principa-mov{
             height: 370px;
         }
         .intro-Img{
-            min-width: 500px;
-            max-width: 520px;
+            min-width: 520px;
+            max-width: 600px;
             margin-bottom: -100px;
             padding-bottom: 0;
             margin-left: 50px;
@@ -296,3 +292,185 @@ header div div i{
 
 
 /*<--Intro Section*/
+/*==================== Invite Section ====================*/
+        #invite{
+            color: #3C3C3B;
+            background-image: url(../assets/BGSection2.svg);
+            background-repeat: no-repeat;
+            background-position: center;
+            margin: auto;
+        }
+        #invite h2 span{
+            background-color: #00CAD8;
+            border-radius: 20px;
+            padding: 2px 15px;
+
+        }
+        #invite p{
+            font-size: 22px;
+        }
+        @media (max-width: 576px){
+            #invite{
+                text-align: center;
+                background-size: 150%;
+                background-position: left;
+            }
+
+        }
+        @media  (min-width: 576px) and (max-width: 768px){
+
+        }
+        @media (min-width: 768px) and (max-width: 992px){
+
+
+        }
+        @media (min-width: 992px) and (max-width: 1200px){
+            #invite{
+                margin-top: 50px;
+            }
+        }
+        @media (min-width: 1200px) {
+            #invite{
+                padding-top: 60px;
+            }
+        }
+/*<--Invite Section*/
+
+/*==================== service Section ====================*/
+        #service{
+            background: rgb(27,20,61);
+            background: linear-gradient(90deg, rgba(27,20,61,1) 0%, rgba(43,42,101,1) 35%);
+            height: 300px;
+            width: 100%;
+            margin-top: 50px;
+            color: white;
+        }
+        #service div{
+            background-image: url(../assets/BGSectio3Horiz.svg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            height: 300px;
+        }
+        #service ul{
+            font-size: 26px;
+            font-weight: 300;
+            text-decoration: none;
+            list-style: none;
+            text-align: right;
+            padding-top: 100px;
+            line-height: 40px;
+        
+        }
+        #itemServ1{
+            color: #FFD94A;
+            font-weight: 600;
+        }
+        #itemServ2{
+            background-color: #E1E1E1;
+            border-radius: 20px;
+            font-weight: 600;
+            color: #2B2A65;
+            padding: 1px 12px 2px;
+        }
+        #itemServ3{
+            color: #00F79B;
+            font-weight: 600;
+        }
+        #itemServ4{
+            color: #00CAD8;
+            font-weight: 600;
+        }
+        #monedaImg{
+            position: relative;
+            left:14%;
+            top: -140px;
+            width: 12%;
+        }
+        @media (max-width: 576px){
+            header{
+                background-color: yellow;
+            }
+            #service{
+                background: rgb(27,20,61);
+                background: linear-gradient(0deg, rgba(27,20,61,1) 29%, rgba(43,42,101,1) 72%);
+                height: 500px;
+                width: 100%;
+                margin-top: 100px;
+            }
+            #service div{
+                background-image: url(../assets/BGSectio3VerticalXs.svg);
+                height: 500px;
+                background-size: 85%;
+            }
+            #monedaImg{
+                position: relative;
+                left: 45%;
+                top: -75vh;
+                width: 60px;
+            }
+            #service ul{
+                padding: 0;
+                margin: auto;
+                padding-top: 300px;
+                text-align: center;
+                font-size: 18px;
+                line-height: 20px;
+            }
+            #service ul li{
+                margin-bottom: 20px;
+            }
+            
+        }
+        @media  (min-width: 576px) and (max-width: 768px){
+            header{
+                background-color: orchid;
+            }
+            #service{
+                background: rgb(27,20,61);
+                background: linear-gradient(0deg, rgba(27,20,61,1) 29%, rgba(43,42,101,1) 72%);
+                height: 580px;
+                width: 100%;
+                margin-top: 100px;
+            }
+            #service div{
+                background-image: url(../assets/BGSectio3Vertical.svg);
+                height: 580px;
+                background-size: 90%;
+                background-position: ;
+            }
+            #monedaImg{
+                position: relative;
+                left: 45%;
+                top: -80vh;
+                width: 110px;
+            }
+            #service ul{
+                padding: 0;
+                margin: auto;
+                padding-top: 400px;
+                text-align: center;
+            }
+        }
+        @media (min-width: 768px) and (max-width: 992px){
+            header{
+                background-color: rgb(238, 77, 13);
+            }
+            #service ul{
+                padding-top: 50px;
+            }
+            #service div{
+                background-image: url(../assets/BGSectio3HorizMd.svg);
+            }
+        }
+        @media (min-width: 992px) and (max-width: 1200px){
+            header{
+                background-color: rgb(18, 231, 18);
+            }
+        }
+        @media (min-width: 1200px) {
+            header{
+                background-color: rgb(41, 22, 212);
+            }            
+        }
+/*<--service Section*/
