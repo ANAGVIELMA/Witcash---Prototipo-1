@@ -6,7 +6,8 @@
     <title>Witcash</title>
 <!--============Agregados============-->
     <script defer src="Fontawesome/js/all.js"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
   
@@ -80,7 +81,23 @@
         </section>
         <section id="support"></section>
         <section id="witmoney"></section>
-        <section id="security"></section>
+        <section id="security" class="container-fluid">
+            <div class="row">
+                <div class="col-5">
+                    <img id="IMGSecu" src="/assets/IMGSecurityS.png" alt="">
+                </div>
+                <div id="TextSecur" class="col-5 align-self-center">
+                    <h2>Eres tu propio banco</h2>
+                    <p>
+                        <span class="Resalt1">Las 12 palabras</span> con las que generamos
+                        la semilla de tu wallet son,
+                        exclusivamente,<span class="Resalt2"> tu propiedad</span>
+                    </p>
+                </div>
+                <img class="IMGAsbolSec" src="/assets/PlanetasSec.png" alt="">
+            </div>
+            
+        </section>
         <div id="FinalSection" class="container-fluid">
             <section id="benefits" class="row">
                 <div id="benefImag" class="col-5">
@@ -107,13 +124,13 @@
             <footer>
                 <div id="sectionFooter" class="container-fluid align-items-center">
                     <div id="contentFooter" class="row justify-content-center">
-                        <div id="FormFooter" class="col-5 secFooter">
+                        <div id="FormFooter" class="col-6 secFooter">
                             <div class="container">
-                                <form id="newletter"  class="row justify-content-center" action="" >
+                                <form id="newletter"  class="justify-content-center" action="" >
                                     <input id="CampoCorreo" class="controlform justify-content-center" placeholder="Ingresa tu correo electrónico" type="text" name="nombrecompleto">
                                     <input id="BotonEnviar" class="controlform text-center" type="submit" value="Recibir información">
-                                    <p>
-                                        <input id="casillV" type="checkbox" name="peliculas"> Acepto recibir información<br>
+                                    <p id="casillV">
+                                        <input type="checkbox" name="peliculas"> Acepto recibir información<br>
                                     </p>
                                 </form>
                                 <div id="LinksRRSS" class="row justify-content-start">
@@ -132,15 +149,15 @@
                                 </div>
                             </div> 
                         </div>
-                        <div id="uneteStores" class="col-7 secFooter">
+                        <div id="uneteStores" class="col-5 secFooter">
                             <div class="container-fluid">
                                 <div class="row">
-                                    <div class="col-7">
+                                    <div class="col-9">
                                         <h2 id="subTitFooter">Únete al Universo <br> Witcash</h2>
                                         <img class="Storesfooter" src="assets/AppStore.svg" alt=""><br>
                                         <img class="Storesfooter" src="assets/PlayStore.svg" alt="">
                                     </div>
-                                    <div class="col-5">
+                                    <div class="col-3">
                                         <img id="astrofooter" src="assets/Astronauta.png" alt="">
                                     </div>
                                 </div>
@@ -148,7 +165,8 @@
                         </div>
                     </div>
                     <div id="footCopyR">
-
+                        <p id="CR1">Copyright 2020, Witcash</p>
+                        <p id="CR2">Todos los derechos reservados.</p>
                     </div>
                 </div>
             </footer>

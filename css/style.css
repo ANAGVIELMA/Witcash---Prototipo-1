@@ -1,6 +1,5 @@
 body{
     font-family: 'Montserrat', sans-serif;
-    background-color: crimson;
 }
 a{
     font-weight: 600;
@@ -475,7 +474,39 @@ header div div i{
             }            
         }
 /*<--service Section*/
-
+/*////////////////////////////////////////////////////////==================== Middle Section ====================*/
+/*==================== service Section ====================*/
+#security{
+    font-size: 2em;
+    color: white;
+    font-weight: 200;
+    background-image: url("../assets/Fondo\ SSecurity.svg");
+    background-size: cover;
+    height: 500px;
+} 
+#TextSecur{
+    width: 60%;
+}
+#IMGSecu{
+    z-index: 500 !important;
+}
+.IMGAsbolSec{
+    position: absolute;
+    top: 1050px;
+    z-index: 0 !important;
+}
+.Resalt1{
+    background-color: #00F79B;
+    border-radius: 20PX;
+    padding: 3px 12px;
+    font-weight: 700;
+    color: #35357A;
+}
+.Resalt2{
+    color: #00CAD8;
+    font-weight: 700;
+}
+/*<--service Section*/
 /*////////////////////////////////////////////////////////==================== Final Section ====================*/
 
 #FinalSection{
@@ -487,7 +518,7 @@ header div div i{
 /*==================== Benefits Section ====================*/
 #benefits{
     font-size: 22px;
-    padding: 70px;
+    padding: 70px 70px 0 70px;
 }
 #benefits h2{
     color: #2B2A65;
@@ -512,11 +543,11 @@ header div div i{
 #sectionFooter{
     background: rgb(26,26,26);
     background: linear-gradient(312deg, rgba(26,26,26,1) 11%, rgba(27,20,61,1) 41%, rgba(43,42,101,1) 66%);
-    border-radius: 40px;
+    border-radius: 70px;
     width: 90%;
     margin: auto;
-    margin-top: 40px;
-    margin-bottom: 40px;
+    margin-top: 0px;
+    margin-bottom: 30px;
     -webkit-box-shadow: 10px 10px 29px -3px rgba(0,0,0,0.41);
     -moz-box-shadow: 10px 10px 29px -3px rgba(0,0,0,0.41);
     box-shadow: 10px 10px 29px -3px rgba(0,0,0,0.41);
@@ -539,6 +570,7 @@ header div div i{
     text-decoration: none;
     color: white;
     margin-bottom: 20px;
+    font-size: 1.4em;
 }
 #CampoCorreo{
     color: gray;
@@ -547,12 +579,18 @@ header div div i{
 }
 #BotonEnviar{
     color: white;
-    font-size: 1.1em;
+    
     font-weight: 600;
     background-color: #FE2A6F;
     align-items: center !important;
 }
+#casillV{
+    font-size: 1.2em;
+    color: white;
+    font-weight: 100;
+}
 .controlform{
+    font-size: 1.3em;
     margin-left: 0;
     border-radius: 5px;
     border: none;
@@ -560,15 +598,17 @@ header div div i{
     height: 60px;
     margin-bottom: 15px;
 }
+
 .miniIconRRSS{
-    width: 30px;
-    height: 30px;
+    width: 35px;
+    height: 35px;
     margin-right: 5px;
     margin-top: 10px;
     margin-bottom: 20px;
 }
 .secFooter{
     padding-top: 60px  ;
+    margin-bottom: -50px;
 }
 .Storesfooter{
     width: 160px;
@@ -580,9 +620,26 @@ header div div i{
     padding-bottom: 15px;
 }
 #astrofooter{
-    width: 400px;
+    padding: 0;
+    margin: 0;
+    width: 380px;
     position: relative;
-    left: -100px;
+    left: -230px;
     top: -50px;
+}
+#footCopyR{
+    padding-top: 15px;
+    padding-bottom: 10px;
+    color: white;
+    font-size: 0.9em;
+    font-weight: 100;
+    line-height: 0.3em;
+    width: 70%;
+    text-align:center;
+    border-top: white 2px solid;
+    margin: auto;
+}
+#CR2{
+    font-size: 0.85em;
 }
 /*<--service Section*/
