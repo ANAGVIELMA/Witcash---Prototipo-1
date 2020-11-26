@@ -301,7 +301,9 @@ header div div i{
             margin: auto;
         }
         #invite h2 span{
-            background-color: #00CAD8;
+            color: white;
+            margin-left: 5px;
+            background-color: #FE2A6F;
             border-radius: 20px;
             padding: 2px 15px;
 
@@ -560,6 +562,9 @@ header div div i{
     z-index: 500 !important;
 }
 .IMGAsbolSec{
+    margin: auto;
+    max-width: 95%;
+    right: 2.5%;
     position: absolute;
     top: 2030px;
 }
@@ -571,7 +576,7 @@ header div div i{
     color: #35357A;
 }
 .Resalt2{
-    color: #00CAD8;
+    color: #35357A;
     font-weight: 700;
 }
 /*<--service Section*/
