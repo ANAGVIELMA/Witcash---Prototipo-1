@@ -344,6 +344,10 @@ header div div i{
             width: 100%;
             margin-top: 50px;
             color: white;
+            -webkit-box-shadow: 0px 13px 25px 10px rgba(0,0,0,0.73);
+            -moz-box-shadow: 0px 13px 25px 10px rgba(0,0,0,0.73);
+            box-shadow: 0px 13px 25px 10px rgba(0,0,0,0.73);
+            z-index: 900;
         }
         #service div{
             background-image: url(../assets/BGSectio3Horiz.svg);
@@ -437,7 +441,7 @@ header div div i{
                 background-image: url(../assets/BGSectio3Vertical.svg);
                 height: 580px;
                 background-size: 90%;
-                background-position: ;
+                background-position:
             }
             #monedaImg{
                 position: relative;
@@ -475,7 +479,36 @@ header div div i{
         }
 /*<--service Section*/
 /*////////////////////////////////////////////////////////==================== Middle Section ====================*/
-/*==================== service Section ====================*/
+/*==================== support Section ====================*/
+#support{
+    background-image: url("../assets/FondoEstrellas.svg"),url("../assets/FondoDegradado2.svg");
+    background-attachment: fixed, scroll;
+    background-size: cover;
+    color: white;
+    font-size: 2em;
+    font-weight: 200;
+    height: 600px;
+}
+#support h3{
+    background-color: white;
+    border-radius: 25px;
+    padding: 2px 16px 4px 16px;
+    width: fit-content;
+    color: #2B2A65;
+    font-size: 1.3em;
+    font-weight: 700;
+
+}
+/*==================== witmoney Section ====================*/
+#witmoney{
+    background-image: url("../assets/FondoBlancoCohete.svg");
+    background-size: cover;
+    height: 900px;
+    margin-top: -500px;
+    padding-top: 400px;
+    padding-bottom: 100px;
+}
+/*==================== security Section ====================*/
 #security{
     font-size: 2em;
     color: white;
@@ -492,8 +525,7 @@ header div div i{
 }
 .IMGAsbolSec{
     position: absolute;
-    top: 1050px;
-    z-index: 0 !important;
+    top: 2030px;
 }
 .Resalt1{
     background-color: #00F79B;
@@ -546,7 +578,7 @@ header div div i{
     border-radius: 70px;
     width: 90%;
     margin: auto;
-    margin-top: 0px;
+    margin-top: -40px;
     margin-bottom: 30px;
     -webkit-box-shadow: 10px 10px 29px -3px rgba(0,0,0,0.41);
     -moz-box-shadow: 10px 10px 29px -3px rgba(0,0,0,0.41);
