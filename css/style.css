@@ -26,11 +26,12 @@ header div div i{
 .intro{
     margin-left: 30px;
     margin-right: 30px;
+
 }
 .intro-principal{
     background-image: url("../assets/intro-Fondo%20Fixed.svg");
     /* Set a specific height */
-    height: 35vw;
+    height: 35vh;
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
@@ -363,7 +364,7 @@ header div div i{
             font-weight: 300;
             text-decoration: none;
             list-style: none;
-            text-align: right;
+            text-align: left;
             padding-top: 100px;
             line-height: 40px;
         
@@ -389,9 +390,11 @@ header div div i{
         }
         #monedaImg{
             position: relative;
-            left:14%;
+            left:-12%;
             top: -140px;
             width: 12%;
+
+
         }
         @media (max-width: 576px){
             header{
@@ -441,21 +444,26 @@ header div div i{
             }
             #service div{
                 background-image: url(../assets/BGSectio3Vertical.svg);
-                height: 580px;
-                background-size: 90%;
-                background-position:
+                height: 550px;
+                background-size: 80%;
+                background-position:top;
             }
             #monedaImg{
                 position: relative;
-                left: 45%;
-                top: -80vh;
-                width: 110px;
+                left: -38%;
+                top: -600px;
+                width: 16vw;
             }
             #service ul{
                 padding: 0;
                 margin: auto;
-                padding-top: 400px;
+                margin-top: 60px;
+                padding-top: 300px;
                 text-align: center;
+            }
+            #service ul li{
+                margin-bottom: 5px;
+                line-height: 18px;
             }
         }
         @media (min-width: 768px) and (max-width: 992px){
@@ -465,6 +473,10 @@ header div div i{
             #service ul{
                 padding-top: 50px;
             }
+            #service ul li{
+                margin-left: -50px;
+                font-size: 20px;
+            }
             #service div{
                 background-image: url(../assets/BGSectio3HorizMd.svg);
             }
@@ -472,6 +484,9 @@ header div div i{
         @media (min-width: 992px) and (max-width: 1200px){
             header{
                 background-color: rgb(18, 231, 18);
+            }
+            #service ul li{
+                margin-left: -50px;
             }
         }
         @media (min-width: 1200px) {
@@ -544,7 +559,7 @@ header div div i{
 #IMGWitmoney{
     margin-right: auto;
     width: 360px;
-    height: 360px;
+    height: auto;
 }
 /*==================== security Section ====================*/
 #security{
