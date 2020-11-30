@@ -344,8 +344,7 @@ header div div i{
             height: 370px;
         }
         .intro-Img{
-            min-width: 500px;
-            max-width: 800px;
+            width: 500px;
             margin-bottom: -100px;
             padding-bottom: 0;
             margin-left: -50px;
@@ -363,8 +362,7 @@ header div div i{
             height: 400px;
         }
         .intro-Img{
-            min-width: 520px;
-            max-width: 600px;
+            width: 500px;
             margin-bottom: -100px;
             padding-bottom: 0;
             margin-left: 0px;
@@ -410,10 +408,11 @@ header div div i{
                 text-align: center;
                 background-size: 150%;
                 background-position: left;
+                margin-top: 30px;
             }
 
         }
-        @media  (min-width: 576px) and (max-width: 768px){
+        @media  (min-width: 576px) and (max-width: 767px){
             #invite p {
                 text-align: center;
             }
@@ -490,7 +489,53 @@ header div div i{
 
 
         }
-        @media (max-width: 576px){
+        .bulletEstrella{
+            width: 40px;
+            height: 40px;
+        }
+        @media (max-width: 376px){
+            header{
+                background-color: maroon;
+            }
+            #service{
+                background: rgb(27,20,61);
+                background: linear-gradient(0deg, rgba(27,20,61,1) 29%, rgba(43,42,101,1) 72%);
+                height: 300px;
+                width: 100%;
+                margin-top: 100px;
+            }
+            #service div{
+                background-image: url(../assets/BGSectio3VerticalXs.svg);
+                height: 300px;
+                background-size: 85%;
+            }
+            #monedaImg{
+                position: relative;
+                top: -305px;
+                left: -30%;
+                height: 70px;
+                width: 70px;
+            }
+            #service ul{
+                padding: 0;
+                margin: auto;
+                padding-top: 150px;
+                text-align: center;
+                font-size: 14px;
+                line-height: 8px;
+            }
+            #service ul li{
+                line-height: 8px;
+            }
+            #service.degradado{
+                padding: 0;
+            }
+            .bulletEstrella{
+                width: 25px;
+                height: 25px;
+            }
+        }
+        @media (min-width: 376px) and (max-width: 576px){
             header{
                 background-color: yellow;
             }
@@ -508,9 +553,10 @@ header div div i{
             }
             #monedaImg{
                 position: relative;
-                left: 45%;
-                top: -75vh;
-                width: 60px;
+                top: -495px;
+                left: -38%;
+                height: 80px;
+                width: 80px;
             }
             #service ul{
                 padding: 0;
@@ -518,10 +564,10 @@ header div div i{
                 padding-top: 300px;
                 text-align: center;
                 font-size: 18px;
-                line-height: 20px;
+                line-height: 8px;
             }
             #service ul li{
-                margin-bottom: 20px;
+                line-height: 8px;
             }
             
         }
@@ -531,14 +577,15 @@ header div div i{
             }
             #service{
                 background: rgb(27,20,61);
-                background: linear-gradient(0deg, rgba(27,20,61,1) 29%, rgba(43,42,101,1) 72%);
+                background: url("../assets/BGSectio3Vertical.svg"), linear-gradient(0deg, rgba(27,20,61,1) 29%, rgba(43,42,101,1) 72%);
+                
+                background-position: top;
                 height: 580px;
                 width: 100%;
                 margin-top: 100px;
             }
             #service div{
                 background-size: cover;
-                background-image: url("../assets/BGSectio3Vertical.svg");
                 background-repeat: no-repeat !important;
                 background-position: top;
                 height: 550px;
@@ -607,6 +654,20 @@ header div div i{
     font-weight: 200;
     height: 600px;
 }
+#support div.FondoCohete{
+    padding: 0 !important;
+    background-image: url("../assets/FondoBlancoCohete.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    width: 100%;
+    height: 600px;
+    margin: auto;
+
+}
+#support div.FondoCohete div.row{
+    margin: auto;
+}
 #support h3{
     background-color: white;
     border-radius: 25px;
@@ -618,7 +679,8 @@ header div div i{
 
 }
 #textSupport{
-    margin:auto;
+    margin-left: auto;
+    margin-right: 10px;
     margin-top: 130px;
 }
 #IMGSupport{
@@ -628,22 +690,88 @@ header div div i{
     margin-top: 60px;
     padding-left: 20px;
 }
+@media (max-width: 376px){
+    #textSupport h3{background-color: maroon;}
+    #support{
+        height: 500px;
+    }
+    #textSupport h3{
+        margin: auto;
+        font-size: 1.3em;    
+    }
+    #support div.FondoCohete{
+        height: 500px;
+        background-image: url("../assets/FondoBlancoCoheteXXS.svg");
+    }
+    #textSupport {
+        font-size: 0.8em;
+        margin: auto;
+        text-align: center;
+        margin-top: 40px;
+    }
+}
+@media (min-width: 376px) and (max-width: 575px){
+    #textSupport h3{background-color: yellow;}
+    #support{
+        height: 500px;
+    }
+    #textSupport h3{
+        margin: auto;
+        font-size: 1.2em;    
+    }
+    #support div.FondoCohete{
+        height: 500px;
+        background-image: url("../assets/FondoBlancoCoheteXXS.svg");
+    }
+    #textSupport {
+        font-size: 0.9em;
+        margin: auto;
+        text-align: center;
+        margin-top: 40px;
+    }   
+    
+}
+@media  (min-width: 576px) and (max-width: 767px){
+    #textSupport h3{background-color: orchid;}
+    #textSupport h3{
+        margin: auto;    
+    }
+    #textSupport {
+        margin: auto;
+        text-align: center;
+        margin-top: 40px;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px){
+    #textSupport h3{background-color: rgb(238, 77, 13);}
+}
+@media (min-width: 992px) and (max-width: 1200px){
+    #textSupport h3{background-color: rgb(18, 231, 18);}
+
+}
+@media (min-width: 1200px) {
+    #textSupport h3{background-color: rgb(41, 22, 212);}
+    #support div.FondoCohete{
+        background-size: cover;
+        background-position: top;
+    }
+    #support{
+        margin-top: -10px;
+    }
+}
 
 /*==================== witmoney Section ====================*/
 #witmoney{
-    background-image: url("../assets/FondoBlancoCohete.svg");
-    background-size: cover;
-    background-position: center;
-    height: 900px;
-    margin-top: -500px;
-    padding-top: 400px;
-    padding-bottom: 100px;
+    background-color: white;
+    height: 400px;
+    margin-top: -10px;
+    padding-bottom: 20px;
 }
 #textWitmoney{
     color: #2B2A65;
     margin-left: auto;
     padding-right: 10px;
-    margin-top: 200px;
+    margin-top: 50px;
     font-size: 24px;
     font-weight: 400;
     text-align: right;
@@ -658,8 +786,100 @@ header div div i{
 }
 #IMGWitmoney{
     margin-right: auto;
+    margin-top: -50px;
     width: 360px;
     height: auto;
+}
+@media (max-width: 376px){
+    #textSupport h3{background-color: maroon;}
+    #witmoney{
+        padding: 0;
+        height:700px;
+        margin: auto;
+        margin-top:-40px;
+    }
+    #textWitmoney{
+        color: #2B2A65;
+        margin: auto;
+        padding-right: 10px;
+        margin-top: 5vw;
+        text-align: center;
+    }
+    #IMGWitmoney{
+        margin: auto;
+        width: 80%;
+        max-width: 600px !important;
+        height: 80%;
+    }
+}
+@media (min-width: 376px) and (max-width: 576px){
+    #textSupport h3{background-color: yellow;}
+    #witmoney{
+        padding: 0;
+        height:700px;
+        margin: auto;
+        margin-top:-40px;
+    }
+    #textWitmoney{
+        color: #2B2A65;
+        margin: auto;
+        padding-right: 10px;
+        margin-top: 5vw;
+        text-align: center;
+    }
+    #IMGWitmoney{
+        margin: auto;
+        width: 80%;
+        max-width: 600px !important;
+        height: 80%;
+    }
+}
+@media  (min-width: 576px) and (max-width: 767px){
+    #textSupport h3{background-color: orchid;}
+    #witmoney{
+        padding: 0;
+        height:820px !important;
+        margin-top:-40px;
+
+    }
+    #textWitmoney{
+        color: #2B2A65;
+        margin-left: auto;
+        padding-right: 10px;
+        margin-top: 5vw;
+        text-align: center;
+    }
+    #IMGWitmoney{
+        margin: auto;
+        width: 80%;
+        max-width: 600px !important;
+        height: 80%;
+    }
+
+}
+@media (min-width: 768px) and (max-width: 991px){
+    #textSupport h3{background-color: rgb(238, 77, 13);}
+    #textWitmoney h2{
+        font-size: 1.4em;
+    }
+    #textWitmoney h3{
+        font-size: 1.1em;
+    }
+    #textWitmoney p{
+        font-size: 0.8em;
+    }
+}
+@media (min-width: 992px) and (max-width: 1200px){
+    #textSupport h3{background-color: rgb(18, 231, 18);}
+
+}
+@media (min-width: 1200px) {
+    #textSupport h3{background-color: rgb(41, 22, 212);}
+    #witmoney{
+        margin: 0;
+        background-size: 1800px 500px;
+        background-position: top left;
+    }
 }
 /*==================== security Section ====================*/
 #security{
@@ -694,10 +914,78 @@ header div div i{
     color: #35357A;
     font-weight: 700;
 }
+@media (max-width: 375px){
+    .Resalt1{background-color: maroon;}
+    #security, #security div.row,#security div.row dic{
+        margin: auto;
+    }
+    #security{
+        padding-top: 25px;
+        height: 610px;
+        text-align: center;
+        font-size: 1.5em;
+    }
+    .IMGAsbolSec{
+        display: none;
+    }
+}
+@media (min-width: 376px) and (max-width: 576px){
+    .Resalt1{background-color: yellow;}
+    #security, #security div.row,#security div.row dic{
+        margin: auto;
+    }
+    #security{
+        padding-top: 25px;
+        height: 750px;
+        text-align: center;
+    }
+    .IMGAsbolSec{
+        display: none;
+    }
+}
+@media  (min-width: 576px) and (max-width: 767px){
+    .Resalt1{background-color: orchid;}
+    #security, #security div.row,#security div.row dic{
+        margin: auto;
+    }
+    #security{
+        height: 750px;
+        text-align: center;
+    }
+    .IMGAsbolSec{
+        display: none;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px){
+    .Resalt1{background-color: rgb(238, 77, 13);}
+    .IMGAsbolSec{
+        top: 1900px;
+        right: -2%;
+        max-width: 120%;
+    }
+    #security{
+        padding-top: 70px;
+    }
+}
+@media (min-width: 992px) and (max-width: 1200px){
+    .Resalt1{background-color: rgb(18, 231, 18);}
+    .IMGAsbolSec{
+        top: 1950px;
+        max-width: 100%;
+    }
+    #security{
+        padding-top: 70px;
+    }
+}
+@media (min-width: 1200px) {
+    .Resalt1{background-color: rgb(41, 22, 212);}
+}
 /*<--service Section*/
 /*////////////////////////////////////////////////////////==================== Final Section ====================*/
 
 #FinalSection{
+    margin: auto;
+    padding:0;
     padding-bottom: 50px;
     background: rgb(222,212,204);
     background: linear-gradient(273deg, rgba(222,212,204,1) 0%, rgba(229,229,229,1) 41%, rgba(255,255,255,1) 100%);
@@ -705,17 +993,24 @@ header div div i{
 
 /*==================== Benefits Section ====================*/
 #benefits{
+    margin: auto;
     font-size: 22px;
-    padding: 70px 70px 0 70px;
+    padding: 50px 0px 50px 0px;
 }
 #benefits h2{
     color: #2B2A65;
 }
 #benefImag{
+    margin: 0;
+    margin-left: auto;
     padding-top: -50px;
 }
+#benefTexto{
+    margin-right: auto;
+    margin-left: 0px;
+}
 #bImg{
-    width: 135%;
+    max-width: 155%;
 }
 .subtParrafo{
     padding: 2px 6px;
@@ -726,6 +1021,84 @@ header div div i{
 }
 .listIcons{
     list-style: none;
+}
+@media (max-width: 375px){
+    .subtParrafo{background-color: maroon;}
+    #benefits{
+        padding-top: 0;
+    }
+    #benefImag{
+        padding: 0;
+    }
+    #benefTexto{
+        margin: auto;
+        margin-top: -100px;
+    }
+    #benefTexto h2{
+        text-align: center;
+    }
+}
+@media (min-width: 376px) and (max-width: 575px){
+    .subtParrafo{background-color: yellow;}
+    #benefits{
+        padding-top: 0;
+    }
+    #benefImag{
+        padding: 0;
+    }
+    #benefTexto{
+        margin: auto;
+        margin-top: -100px;
+    }
+    #benefTexto h2{
+        text-align: center;
+    }
+}
+@media  (min-width: 576px) and (max-width: 767px){
+    .subtParrafo{background-color: orchid;}
+    #benefits{
+        padding-top: 0;
+    }
+    #benefImag{
+        padding: 0;
+    }
+    #benefTexto{
+        margin: auto;
+        margin-top: -100px;
+    }
+    #benefTexto h2{
+        text-align: center;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px){
+    .subtParrafo{background-color: rgb(238, 77, 13);}
+    #benefTexto{
+        font-size: 19px;
+        padding-right: 5px;
+    }
+    #bImg{
+        width: 130%;
+    }
+}
+@media (min-width: 992px) and (max-width: 1200px){
+    .subtParrafo{background-color: rgb(18, 231, 18);}
+    #bImg{
+        max-width: 155%;
+    }
+}
+@media (min-width: 1200px) {
+    .subtParrafo{background-color: rgb(41, 22, 212);}
+    #benefits{
+        padding: 100px 0px 50px 0px;
+    }
+    #bImg{
+        width: 135%;
+    }
+    #benefTexto{
+        padding-top: 50px;
+        margin-right: auto;
+        margin-left: 0px;
+    }
 }
 /*==================== Footer Section ====================*/
 #sectionFooter{
@@ -740,18 +1113,31 @@ header div div i{
     -moz-box-shadow: 10px 10px 29px -3px rgba(0,0,0,0.41);
     box-shadow: 10px 10px 29px -3px rgba(0,0,0,0.41);
 }
+#FormFooter{
+    padding-left: 30px;
+}
 #FormFooter div{
+    padding:0;
+    margin: 0;
+    margin: auto;
     width: 90%;
+
+}
+#uneteStores{
+    margin-left: 30px;
 }
 #contentFooter{
     margin: auto;
+    margin-bottom: -50px;
 }
 #newletter{
     margin: auto;
     padding-bottom: 20px;
     margin-right: -40px; 
 }
-#LinksRRSS{
+#LinksRRSS,  #LinksRRSS div, #LinksRRSS div div{
+    margin: 0;
+    padding:0;
     margin: auto;
 }
 .linkrrss{
@@ -809,9 +1195,9 @@ header div div i{
 #astrofooter{
     padding: 0;
     margin: 0;
-    width: 380px;
+    max-width: 250%;
     position: relative;
-    left: -230px;
+    left: -150px;
     top: -50px;
 }
 #footCopyR{
@@ -828,5 +1214,192 @@ header div div i{
 }
 #CR2{
     font-size: 0.85em;
+}
+@media (max-width: 375px){
+    #BotonEnviar{background-color: maroon;}
+    #newletter{
+        padding: 0;
+        margin: 0;
+    }
+    #FormFooter{
+        padding: 0;
+        padding-top: 50px;
+    }
+    #sectionFooter{
+        border-radius: 30px;
+    }
+    #uneteStores{
+        padding: 0;
+        padding-top: 50px;
+    }
+    .Storesfooter{
+        width: 45%;
+    }
+    #astrofooter{
+        width: 110%;
+        top: -10px;
+        left: -18px;
+    }
+    .miniIconRRSS{
+        width: 30px;
+        height: 30px;
+        margin-right: 3px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+    .listIcons {
+        margin: auto;
+        padding: 0;
+    }
+    #footCopyR{
+        margin-top: 100px;
+    }
+    #uneteStores{
+        margin-left: 0 ;
+        text-align: center;
+    }
+    #uneteStores div{
+        padding: 0;
+        margin: auto;
+    }
+    #newletter{
+        font-size: 0.8em;
+    }
+}
+@media (min-width: 376px) and (max-width: 575px){
+    #BotonEnviar{background-color: yellow;}
+    #newletter{
+        padding: 0;
+        margin: 0;
+    }
+    #FormFooter{
+        padding: 0;
+        padding-top: 50px;
+    }
+    #sectionFooter{
+        border-radius: 30px;
+    }
+    #uneteStores{
+        padding: 0;
+        padding-top: 50px;
+    }
+    .Storesfooter{
+        width: 45%;
+    }
+    #astrofooter{
+        width: 110%;
+        top: -10px;
+        left: -18px;
+    }
+    .miniIconRRSS{
+        width: 34px;
+        height: 34px;
+        margin-right: 5px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+    #footCopyR{
+        margin-top: 100px;
+    }
+    #uneteStores{
+        margin-left: 0 ;
+        text-align: center;
+    }
+    #uneteStores div{
+        padding: 0;
+        margin: auto;
+    }
+}
+@media  (min-width: 576px) and (max-width: 767px){
+    #BotonEnviar{background-color: orchid;}
+    #astrofooter{
+        left: -30px;
+        top: -20px;
+        width: 90%;
+    }
+    #FormFooter{
+        padding-right: 0;
+    }
+    #LinksRRSS div{
+        margin:0;
+        padding-left: 0;
+        font-size: 0.75em;
+        line-height: 1.8em;
+    } 
+    .listIcons {
+        padding-left: 0;
+    }
+    #newletter{
+        padding-bottom: 0;
+    }
+    .miniIconRRSS{
+        width: 20px;
+        height: 20px;
+        margin-right: 5px;
+        margin-top: 0px;
+        margin-bottom: 20px;
+    }
+    #footCopyR{
+        margin-top: 95px;
+    }
+    #uneteStores div{
+        margin-left: 15px;
+        padding: 0;
+    }
+    .Storesfooter{
+        width: 40%;
+    }
+    #subTitFooter{
+        font-size: 1.4em;
+    }
+    #CampoCorreo{
+        font-size: 0.9em;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px){
+    #BotonEnviar{background-color: rgb(238, 77, 13);}
+    #astrofooter{
+        left: -60px;
+    }
+    #FormFooter{
+        padding-right: 0;
+    }
+    #LinksRRSS div{
+        margin:0;
+        padding-left: 0;
+        font-size: 0.75em;
+        line-height: 1.4em;
+    } 
+    .listIcons {
+        padding-left: 0;
+    }
+    #newletter{
+        padding-bottom: 0;
+    }
+    .miniIconRRSS{
+        width: 30px;
+        height: 30px;
+        margin-right: 5px;
+        margin-top: 0px;
+        margin-bottom: 20px;
+    }
+    #footCopyR{
+        margin-top: 95px;
+    }
+}
+@media (min-width: 992px) and (max-width: 1200px){
+    #BotonEnviar{background-color: rgb(18, 231, 18);}
+    #astrofooter{
+        left: -90px;
+    }
+    #LinksRRSS{
+        margin-left: 0;
+        padding-left: 0;
+        font-size: 0.95em;
+        line-height: 1.4em;
+    }   
+}
+@media (min-width: 1200px) {
+    #BotonEnviar{background-color: rgb(41, 22, 212);}
 }
 /*<--service Section*/
