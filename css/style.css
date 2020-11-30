@@ -116,6 +116,9 @@ header div div i{
     header{
         width: 90%;
     }
+    main{
+        margin: auto;
+    }
     .intro{
         width: 95%;
         margin-left: 10px;
@@ -136,6 +139,14 @@ header div div i{
     }
     .intro-principal, .intro-principa-mov{
         height:510px;
+        padding-left: 0;
+        padding-right: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .intro-principal div{
+        padding: 0;
+        margin: auto;
     }
     .intro-Img{
         position: relative;
@@ -410,6 +421,9 @@ header div div i{
                 background-position: left;
                 margin-top: 30px;
             }
+            #invite p{
+                margin: auto;
+            }
 
         }
         @media  (min-width: 576px) and (max-width: 767px){
@@ -417,10 +431,7 @@ header div div i{
                 text-align: center;
             }
         }
-        @media (min-width: 768px) and (max-width: 992px){
-
-
-        }
+        @media (min-width: 768px) and (max-width: 992px){} 
         @media (min-width: 992px) and (max-width: 1200px){
             #invite{
                 margin-top: 50px;
@@ -494,9 +505,6 @@ header div div i{
             height: 40px;
         }
         @media (max-width: 376px){
-            header{
-                background-color: maroon;
-            }
             #service{
                 background: rgb(27,20,61);
                 background: linear-gradient(0deg, rgba(27,20,61,1) 29%, rgba(43,42,101,1) 72%);
@@ -536,9 +544,6 @@ header div div i{
             }
         }
         @media (min-width: 376px) and (max-width: 576px){
-            header{
-                background-color: yellow;
-            }
             #service{
                 background: rgb(27,20,61);
                 background: linear-gradient(0deg, rgba(27,20,61,1) 29%, rgba(43,42,101,1) 72%);
@@ -572,9 +577,6 @@ header div div i{
             
         }
         @media  (min-width: 576px) and (max-width: 767px){
-            header{
-                background-color: orchid;
-            }
             #service{
                 background: rgb(27,20,61);
                 background: url("../assets/BGSectio3Vertical.svg"), linear-gradient(0deg, rgba(27,20,61,1) 29%, rgba(43,42,101,1) 72%);
@@ -609,9 +611,6 @@ header div div i{
             }
         }
         @media (min-width: 768px) and (max-width: 991px){
-            header{
-                background-color: rgb(238, 77, 13);
-            }
             #service ul{
                 padding-top: 50px;
             }
@@ -624,9 +623,6 @@ header div div i{
             }
         }
         @media (min-width: 992px) and (max-width: 1200px){
-            header{
-                background-color: rgb(18, 231, 18);
-            }
             #service ul{
                 margin-top: -30px;
             }
@@ -635,9 +631,6 @@ header div div i{
             }
         }
         @media (min-width: 1200px) {
-            header{
-                background-color: rgb(41, 22, 212);
-            }
             #service ul{
                 margin-top: -45px;
             }            
@@ -691,7 +684,6 @@ header div div i{
     padding-left: 20px;
 }
 @media (max-width: 376px){
-    #textSupport h3{background-color: maroon;}
     #support{
         height: 500px;
     }
@@ -711,7 +703,6 @@ header div div i{
     }
 }
 @media (min-width: 376px) and (max-width: 575px){
-    #textSupport h3{background-color: yellow;}
     #support{
         height: 500px;
     }
@@ -732,7 +723,6 @@ header div div i{
     
 }
 @media  (min-width: 576px) and (max-width: 767px){
-    #textSupport h3{background-color: orchid;}
     #textSupport h3{
         margin: auto;    
     }
@@ -742,15 +732,9 @@ header div div i{
         margin-top: 40px;
     }
 }
-@media (min-width: 768px) and (max-width: 991px){
-    #textSupport h3{background-color: rgb(238, 77, 13);}
-}
-@media (min-width: 992px) and (max-width: 1200px){
-    #textSupport h3{background-color: rgb(18, 231, 18);}
-
-}
+@media (min-width: 768px) and (max-width: 991px){}
+@media (min-width: 992px) and (max-width: 1200px){}
 @media (min-width: 1200px) {
-    #textSupport h3{background-color: rgb(41, 22, 212);}
     #support div.FondoCohete{
         background-size: cover;
         background-position: top;
@@ -791,17 +775,19 @@ header div div i{
     height: auto;
 }
 @media (max-width: 376px){
-    #textSupport h3{background-color: maroon;}
     #witmoney{
         padding: 0;
         height:700px;
         margin: auto;
         margin-top:-40px;
     }
+    #witmoney div{
+        margin: auto;
+    }
     #textWitmoney{
         color: #2B2A65;
         margin: auto;
-        padding-right: 10px;
+        padding-right: 0px;
         margin-top: 5vw;
         text-align: center;
     }
@@ -813,7 +799,6 @@ header div div i{
     }
 }
 @media (min-width: 376px) and (max-width: 576px){
-    #textSupport h3{background-color: yellow;}
     #witmoney{
         padding: 0;
         height:700px;
@@ -835,7 +820,6 @@ header div div i{
     }
 }
 @media  (min-width: 576px) and (max-width: 767px){
-    #textSupport h3{background-color: orchid;}
     #witmoney{
         padding: 0;
         height:820px !important;
@@ -855,10 +839,8 @@ header div div i{
         max-width: 600px !important;
         height: 80%;
     }
-
 }
 @media (min-width: 768px) and (max-width: 991px){
-    #textSupport h3{background-color: rgb(238, 77, 13);}
     #textWitmoney h2{
         font-size: 1.4em;
     }
@@ -869,12 +851,8 @@ header div div i{
         font-size: 0.8em;
     }
 }
-@media (min-width: 992px) and (max-width: 1200px){
-    #textSupport h3{background-color: rgb(18, 231, 18);}
-
-}
+@media (min-width: 992px) and (max-width: 1200px){}
 @media (min-width: 1200px) {
-    #textSupport h3{background-color: rgb(41, 22, 212);}
     #witmoney{
         margin: 0;
         background-size: 1800px 500px;
@@ -915,7 +893,6 @@ header div div i{
     font-weight: 700;
 }
 @media (max-width: 375px){
-    .Resalt1{background-color: maroon;}
     #security, #security div.row,#security div.row dic{
         margin: auto;
     }
@@ -930,7 +907,6 @@ header div div i{
     }
 }
 @media (min-width: 376px) and (max-width: 576px){
-    .Resalt1{background-color: yellow;}
     #security, #security div.row,#security div.row dic{
         margin: auto;
     }
@@ -944,7 +920,6 @@ header div div i{
     }
 }
 @media  (min-width: 576px) and (max-width: 767px){
-    .Resalt1{background-color: orchid;}
     #security, #security div.row,#security div.row dic{
         margin: auto;
     }
@@ -957,7 +932,6 @@ header div div i{
     }
 }
 @media (min-width: 768px) and (max-width: 991px){
-    .Resalt1{background-color: rgb(238, 77, 13);}
     .IMGAsbolSec{
         top: 1900px;
         right: -2%;
@@ -968,7 +942,6 @@ header div div i{
     }
 }
 @media (min-width: 992px) and (max-width: 1200px){
-    .Resalt1{background-color: rgb(18, 231, 18);}
     .IMGAsbolSec{
         top: 1950px;
         max-width: 100%;
@@ -977,9 +950,7 @@ header div div i{
         padding-top: 70px;
     }
 }
-@media (min-width: 1200px) {
-    .Resalt1{background-color: rgb(41, 22, 212);}
-}
+@media (min-width: 1200px) {    }
 /*<--service Section*/
 /*////////////////////////////////////////////////////////==================== Final Section ====================*/
 
@@ -1023,7 +994,6 @@ header div div i{
     list-style: none;
 }
 @media (max-width: 375px){
-    .subtParrafo{background-color: maroon;}
     #benefits{
         padding-top: 0;
     }
@@ -1039,7 +1009,6 @@ header div div i{
     }
 }
 @media (min-width: 376px) and (max-width: 575px){
-    .subtParrafo{background-color: yellow;}
     #benefits{
         padding-top: 0;
     }
@@ -1055,7 +1024,6 @@ header div div i{
     }
 }
 @media  (min-width: 576px) and (max-width: 767px){
-    .subtParrafo{background-color: orchid;}
     #benefits{
         padding-top: 0;
     }
@@ -1071,7 +1039,6 @@ header div div i{
     }
 }
 @media (min-width: 768px) and (max-width: 991px){
-    .subtParrafo{background-color: rgb(238, 77, 13);}
     #benefTexto{
         font-size: 19px;
         padding-right: 5px;
@@ -1081,13 +1048,11 @@ header div div i{
     }
 }
 @media (min-width: 992px) and (max-width: 1200px){
-    .subtParrafo{background-color: rgb(18, 231, 18);}
     #bImg{
         max-width: 155%;
     }
 }
 @media (min-width: 1200px) {
-    .subtParrafo{background-color: rgb(41, 22, 212);}
     #benefits{
         padding: 100px 0px 50px 0px;
     }
@@ -1216,7 +1181,7 @@ header div div i{
     font-size: 0.85em;
 }
 @media (max-width: 375px){
-    #BotonEnviar{background-color: maroon;}
+    /*#BotonEnviar{background-color: maroon;}*/
     #newletter{
         padding: 0;
         margin: 0;
@@ -1265,9 +1230,12 @@ header div div i{
     #newletter{
         font-size: 0.8em;
     }
+    #CR2{
+        line-height: 1.1em;
+    }
 }
 @media (min-width: 376px) and (max-width: 575px){
-    #BotonEnviar{background-color: yellow;}
+    /*#BotonEnviar{background-color: yellow;}*/
     #newletter{
         padding: 0;
         margin: 0;
@@ -1311,7 +1279,7 @@ header div div i{
     }
 }
 @media  (min-width: 576px) and (max-width: 767px){
-    #BotonEnviar{background-color: orchid;}
+    /*#BotonEnviar{background-color: orchid;}*/
     #astrofooter{
         left: -30px;
         top: -20px;
@@ -1357,7 +1325,7 @@ header div div i{
     }
 }
 @media (min-width: 768px) and (max-width: 991px){
-    #BotonEnviar{background-color: rgb(238, 77, 13);}
+    /*#BotonEnviar{background-color: rgb(238, 77, 13);}*/
     #astrofooter{
         left: -60px;
     }
@@ -1388,7 +1356,7 @@ header div div i{
     }
 }
 @media (min-width: 992px) and (max-width: 1200px){
-    #BotonEnviar{background-color: rgb(18, 231, 18);}
+    /*#BotonEnviar{background-color: rgb(18, 231, 18);}*/
     #astrofooter{
         left: -90px;
     }
@@ -1400,6 +1368,6 @@ header div div i{
     }   
 }
 @media (min-width: 1200px) {
-    #BotonEnviar{background-color: rgb(41, 22, 212);}
+    /*#BotonEnviar{background-color: rgb(41, 22, 212);}*/
 }
 /*<--service Section*/
