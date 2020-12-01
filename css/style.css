@@ -368,7 +368,7 @@ header div div i{
             font-size: 48px;
         }
     }
-    @media (min-width: 1200px) {
+    @media (min-width: 1200px) and (max-width: 1400px){
         .intro-principal, .intro-principa-mov{
             height: 400px;
         }
@@ -378,6 +378,11 @@ header div div i{
             padding-bottom: 0;
             margin-left: 0px;
         }
+        .description-Intro{
+            margin-left: 50px;
+            margin-top: 20px;
+        }
+
         .description-Intro p{
             font-size: 33px;
         }
@@ -387,6 +392,35 @@ header div div i{
         }
         #Stores{
             width: 600px;
+        }
+        .iconStore{
+            line-height: 1em;
+        }
+    }
+    @media (min-width: 1401px) {
+        .intro-principal, .intro-principa-mov{
+            height: 400px;
+        }
+        .intro-Img{
+            width: 500px;
+            margin-bottom: -100px;
+            padding-bottom: 0;
+            margin-left: 100px;
+         }
+        .description-Intro{
+            margin-left: 100px;
+            margin-top: 30px;
+        }
+        .description-Intro p{
+            font-size: 36px;
+        }
+        .description-Intro h1{
+            line-height: 65px;
+            font-size: 52px;
+        }
+        #Stores{
+            width: 600px;
+            margin-bottom: 40px;
         }
         .iconStore{
             line-height: 1em;
@@ -437,9 +471,24 @@ header div div i{
                 margin-top: 50px;
             }
         }
-        @media (min-width: 1200px) {
+        @media (min-width: 1200px) and (max-width: 1400px){
             #invite{
                 padding-top: 60px;
+            }
+        }
+        @media (min-width: 1401px) {
+            #invite{
+                padding-top: 60px;
+                padding-bottom: 50px;
+            }
+            #invite h2{
+                font-size: 46px;
+            }
+            #invite p{
+                font-size: 46px;
+            }
+            #invite h2 span{
+                background-color:lawngreen;
             }
         }
 /*<--Invite Section*/
@@ -630,9 +679,27 @@ header div div i{
                 margin-left: -80px;
             }
         }
-        @media (min-width: 1200px) {
+        @media (min-width: 1200px) and (max-width: 1400px){
             #service ul{
                 margin-top: -45px;
+            }            
+        }
+        @media (min-width: 1401px){
+            #service ul{
+                
+                font-size: 40px;
+                margin: auto;
+                margin-top: -45px;
+            }
+            #service,#service div{
+                height: 400px; 
+            }
+            .bulletEstrella{
+                height: 70px;
+                width: 70px;
+            }
+            #monedaImg{
+                top: -200px;
             }            
         }
 /*<--service Section*/
@@ -734,7 +801,7 @@ header div div i{
 }
 @media (min-width: 768px) and (max-width: 991px){}
 @media (min-width: 992px) and (max-width: 1200px){}
-@media (min-width: 1200px) {
+@media (min-width: 1200px) and (max-width: 1400px){
     #support div.FondoCohete{
         background-size: cover;
         background-position: top;
@@ -743,11 +810,25 @@ header div div i{
         margin-top: -10px;
     }
 }
+@media (min-width: 1401px){
+    #support div.FondoCohete{
+        background-size: cover;
+        background-position: top;
+        height: 800px;
+    }
+    #support{
+        margin-top: -10px;
+        height: 800px;
+    }
+    #textSupport{
+        font-size: 50px;
+    }
+}
 
 /*==================== witmoney Section ====================*/
 #witmoney{
     background-color: white;
-    height: 400px;
+    height :400px;
     margin-top: -10px;
     padding-bottom: 20px;
 }
@@ -852,13 +933,28 @@ header div div i{
     }
 }
 @media (min-width: 992px) and (max-width: 1200px){}
-@media (min-width: 1200px) {
+@media (min-width: 1200px) and (max-width: 1400px){
     #witmoney{
         margin: 0;
         background-size: 1800px 500px;
         background-position: top left;
     }
 }
+@media (min-width: 1401px){
+    #witmoney{
+        margin: 0;
+        background-size: 1800px 500px;
+        background-position: top left;
+        height :600px;
+    }
+    #textWitmoney{
+        font-size: 45px;
+        margin-top: auto;
+        margin-bottom: auto;
+        margin-right: 40px;
+    }      
+}
+
 /*==================== security Section ====================*/
 #security{
     font-size: 2em;
@@ -950,7 +1046,31 @@ header div div i{
         padding-top: 70px;
     }
 }
-@media (min-width: 1200px) {    }
+@media (min-width: 1200px) and (max-width: 1400px){    }
+@media (min-width: 1401px){
+    #security{
+        height: 600px;
+    }
+    #TextSecur{
+        font-size: 46px;
+        line-height: 54px;
+        margin-left: 20px;
+    }
+    #TextSecur h2{
+        font-size: 54px;
+    }
+    .IMGAsbolSec{
+        top: 2600px;
+        max-width: 100%;
+        width: 100%;
+    }
+    #IMGSecu{
+        width: 600px;
+        margin-top: 20px;
+        margin-bottom: auto;
+        margin-left: 40px;
+    }
+}
 /*<--service Section*/
 /*////////////////////////////////////////////////////////==================== Final Section ====================*/
 
@@ -1052,7 +1172,7 @@ header div div i{
         max-width: 155%;
     }
 }
-@media (min-width: 1200px) {
+@media (min-width: 1200px) and (max-width: 1400px){
     #benefits{
         padding: 100px 0px 50px 0px;
     }
@@ -1063,6 +1183,24 @@ header div div i{
         padding-top: 50px;
         margin-right: auto;
         margin-left: 0px;
+    }
+}
+@media (min-width: 1401px){
+    #benefits{
+        padding: 100px 0px 50px 0px;
+    }
+    #bImg{
+        width: 135%;
+    }
+    #benefTexto{
+        padding-top: 50px;
+        margin-right: auto;
+        margin-left: 0px;
+        font-size: 42px;
+    }
+    #benefTexto h2{
+        font-size: 52px;
+        line-height: 60px;
     }
 }
 /*==================== Footer Section ====================*/
@@ -1367,7 +1505,26 @@ header div div i{
         line-height: 1.4em;
     }   
 }
-@media (min-width: 1200px) {
+@media (min-width: 1200px) and (max-width: 1400px){    
     /*#BotonEnviar{background-color: rgb(41, 22, 212);}*/
+}
+@media (min-width: 1401px){
+    #astrofooter{
+        max-width: 500px;
+        margin-top:-100px;
+    }
+    #sectionFooter{
+        font-size: 25px;
+    }
+    .Storesfooter{
+        width: 300px;
+        display: block;
+    }
+    #subTitFooter{
+        font-size: 45px;
+    }
+    #FormFooter{
+        margin-left: 50px;
+    }
 }
 /*<--service Section*/
