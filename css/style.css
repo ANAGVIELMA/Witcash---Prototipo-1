@@ -1,3 +1,16 @@
+/*
+Theme Name:   Divi Child
+Theme URI:    http://witcash.io/Divi-child/
+Description:  Child theme para modificaciones varias
+Author:       design@witcash.io
+Author URI:   http://witcash.io
+Template:     Divi
+Version:      1.0.0
+License:      GNU General Public License v2 or later
+License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+Text Domain:  twenty-seventeen-child
+*/
 html, body, header, main, section, div, h1, p, img,a,i,footer{
     max-width: 100%;
 }
@@ -350,7 +363,7 @@ header div div i{
             line-height: 1em;
         }
     }
-    @media (min-width: 992px) and (max-width: 1200px) {
+    @media (min-width: 992px) and (max-width: 1199px) {
         .intro-principal, .intro-principa-mov{
             height: 370px;
         }
@@ -368,7 +381,7 @@ header div div i{
             font-size: 48px;
         }
     }
-    @media (min-width: 1200px) and (max-width: 1400px){
+    @media (min-width: 1200px) and (max-width: 1600px){
         .intro-principal, .intro-principa-mov{
             height: 400px;
         }
@@ -397,7 +410,7 @@ header div div i{
             line-height: 1em;
         }
     }
-    @media (min-width: 1401px) {
+    @media (min-width: 1601px) {
         .intro-principal, .intro-principa-mov{
             height: 400px;
         }
@@ -466,17 +479,17 @@ header div div i{
             }
         }
         @media (min-width: 768px) and (max-width: 992px){} 
-        @media (min-width: 992px) and (max-width: 1200px){
+        @media (min-width: 992px) and (max-width: 1199px){
             #invite{
                 margin-top: 50px;
             }
         }
-        @media (min-width: 1200px) and (max-width: 1400px){
+        @media (min-width: 1200px) and (max-width: 1600px){
             #invite{
                 padding-top: 60px;
             }
         }
-        @media (min-width: 1401px) {
+        @media (min-width: 1601px) {
             #invite{
                 padding-top: 60px;
                 padding-bottom: 50px;
@@ -486,9 +499,6 @@ header div div i{
             }
             #invite p{
                 font-size: 46px;
-            }
-            #invite h2 span{
-                background-color:lawngreen;
             }
         }
 /*<--Invite Section*/
@@ -679,12 +689,12 @@ header div div i{
                 margin-left: -80px;
             }
         }
-        @media (min-width: 1200px) and (max-width: 1400px){
+        @media (min-width: 1200px) and (max-width: 1600px){
             #service ul{
                 margin-top: -45px;
             }            
         }
-        @media (min-width: 1401px){
+        @media (min-width: 1601px){
             #service ul{
                 
                 font-size: 40px;
@@ -801,7 +811,7 @@ header div div i{
 }
 @media (min-width: 768px) and (max-width: 991px){}
 @media (min-width: 992px) and (max-width: 1200px){}
-@media (min-width: 1200px) and (max-width: 1400px){
+@media (min-width: 1200px) and (max-width: 1600px){
     #support div.FondoCohete{
         background-size: cover;
         background-position: top;
@@ -810,7 +820,7 @@ header div div i{
         margin-top: -10px;
     }
 }
-@media (min-width: 1401px){
+@media (min-width: 1601px){
     #support div.FondoCohete{
         background-size: cover;
         background-position: top;
@@ -933,14 +943,14 @@ header div div i{
     }
 }
 @media (min-width: 992px) and (max-width: 1200px){}
-@media (min-width: 1200px) and (max-width: 1400px){
+@media (min-width: 1200px) and (max-width: 1600px){
     #witmoney{
         margin: 0;
         background-size: 1800px 500px;
         background-position: top left;
     }
 }
-@media (min-width: 1401px){
+@media (min-width: 1601px){
     #witmoney{
         margin: 0;
         background-size: 1800px 500px;
@@ -1046,8 +1056,8 @@ header div div i{
         padding-top: 70px;
     }
 }
-@media (min-width: 1200px) and (max-width: 1400px){    }
-@media (min-width: 1401px){
+@media (min-width: 1200px) and (max-width: 1600px){    }
+@media (min-width: 1601px){
     #security{
         height: 600px;
     }
@@ -1172,20 +1182,18 @@ header div div i{
         max-width: 155%;
     }
 }
-@media (min-width: 1200px) and (max-width: 1400px){
-    #benefits{
-        padding: 100px 0px 50px 0px;
-    }
+@media (min-width: 1200px) and (max-width: 1600px){
     #bImg{
-        width: 135%;
+        width: 125%;
     }
     #benefTexto{
         padding-top: 50px;
         margin-right: auto;
         margin-left: 0px;
+        font-size: 32px;
     }
 }
-@media (min-width: 1401px){
+@media (min-width: 1601px){
     #benefits{
         padding: 100px 0px 50px 0px;
     }
@@ -1505,10 +1513,20 @@ header div div i{
         line-height: 1.4em;
     }   
 }
-@media (min-width: 1200px) and (max-width: 1400px){    
-    /*#BotonEnviar{background-color: rgb(41, 22, 212);}*/
+@media (min-width: 1200px) and (max-width: 1600px){    
+    #astrofooter{
+        max-width: 400px;
+        margin-top:-50px;
+    }
+    .Storesfooter{
+        width: 200px;
+        display: block;
+    }
+    #FormFooter{
+        margin-left: 50px;
+    }
 }
-@media (min-width: 1401px){
+@media (min-width: 1601px){
     #astrofooter{
         max-width: 500px;
         margin-top:-100px;
